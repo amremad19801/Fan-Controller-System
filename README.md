@@ -1,5 +1,4 @@
 <h1>Fan-Controller-System</h1>
-  <p></p>
   <h2>Project Description</h2>
     <p>
      <br>The project is a system that controls the speed of a fan depending on the temperature.</br>
