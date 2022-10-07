@@ -41,5 +41,16 @@
   <h2>Files</h2>
     <p>
      <br>main.c : This file contains the code of the project.</br>
-     
+     <br>adc.h : This file contains the code of the project.</br>
+     <br>adc.c : This file contains the code of the project.</br>
+     <br>lcd.h : This file contains the code of the project.</br>
+     <br>lcd.c : This file contains the code of the project.</br>
+     <br>pwm.h : This file contains the code of the project.</br>
+     <br>pwm.c : This file contains the code of the project.</br>
+     <br>gpio.h : This file contains the code of the project.</br>
+     <br>gpio.c : This file contains the code of the project.</br>
+     <br>dc-mototr.h : This file contains the code of the project.</br>
+     <br>dc-mototr.c : This file contains the code of the project.</br>
+     <br>lm35_sensor.h : This file contains the code of the project.</br>
+     <br>lm35_sensor.c : This file contains the code of the project.</br>
     </p>
