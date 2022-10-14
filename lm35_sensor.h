@@ -14,13 +14,13 @@
 #define LM35_SENSOR_H_
 
 /*******************************************************************************
- *                                 Includes                                    *
+ *                                  Includes                                   *
  *******************************************************************************/
 
 #include "std_types.h"
 
 /*******************************************************************************
- *                                Definitions                                  *
+ *                                 Definitions                                 *
  *******************************************************************************/
 
 #define SENSOR_CHANNEL_ID               2
@@ -28,11 +28,11 @@
 #define SENSOR_MAXIMUM_TEMPERATURE      150
 
 /*******************************************************************************
- *                            Functions Prototypes                            *
+ *                             Functions Prototypes                            *
  *******************************************************************************/
 
 /*
- * Description :
+ * Description:
  * Calculate the temperature from the ADC digital value.
  */
 uint8 LM35_getTemperature(void);
