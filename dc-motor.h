@@ -45,14 +45,14 @@ typedef enum
  *******************************************************************************/
 
 /*
- * Description :
+ * Description:
  * Setup the direction for the two motor pins through the GPIO driver.
  * Stop the DC-Motor at the beginning through the GPIO driver.
  */
 void DcMotor_Init(void);
 
 /*
- * Description :
+ * Description:
  * Rotate the DC Motor CW or A-CW or stop the motor based on the input state value.
  * Send the required duty cycle to the PWM driver based on the required speed value.
  */
