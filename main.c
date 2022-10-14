@@ -49,15 +49,15 @@ int main(void)
 	/* ADC Configuration */
 	const ADC_ConfigType ConfigType = {ADC_INTERNAL_REFERNCE_VOLTAGE,DIVISION_FACTOR_8};
 
-	/* Initialize Drivers */
+	/* Initialize the drivers */
 
-	/* Initialize LCD */
+	/* Initialize the LCD driver */
 	LCD_init();
 
-	/* Initialize DC-Motor */
+	/* Initialize the DC-Motor driver */
 	DcMotor_Init();
 
-	/* Initialize ADC */
+	/* Initialize the ADC driver */
 	ADC_init(&ConfigType);
 
 	LCD_displayStringRowColumn(0,3,"Fan is ");
