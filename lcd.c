@@ -11,7 +11,7 @@
  *******************************************************************************/
 
 /*******************************************************************************
- *                                 Includes                                    *
+ *                                  Includes                                   *
  *******************************************************************************/
 
 #include "lcd.h"
@@ -20,14 +20,14 @@
 #include "common_macros.h"	/* To use the macros like GET_BIT */
 
 /*******************************************************************************
- *                      Functions Definitions                                  *
+ *                            Functions Definitions                            *
  *******************************************************************************/
 
 /*
- * Description :
- * Initialize the LCD:
+ * Description:
+ * Initialize the LCD driver:
  * 1. Setup the LCD pins directions by use the GPIO driver.
- * 2. Setup the LCD Data Mode 4-bits or 8-bits.
+ * 2. Setup the LCD Data Mode 4-bit or 8-bit.
  */
 void LCD_init(void)
 {
@@ -62,7 +62,7 @@ void LCD_init(void)
 }
 
 /*
- * Description :
+ * Description:
  * Send the required command to the screen.
  */
 void LCD_sendCommand(uint8 command)
@@ -116,7 +116,7 @@ void LCD_sendCommand(uint8 command)
 }
 
 /*
- * Description :
+ * Description:
  * Display the required character on the screen.
  */
 void LCD_displayCharacter(uint8 data)
@@ -170,8 +170,8 @@ void LCD_displayCharacter(uint8 data)
 }
 
 /*
- * Description :
- * Display the required string on the screen
+ * Description:
+ * Display the required string on the screen.
  */
 void LCD_displayString(const char *Str)
 {
@@ -181,18 +181,18 @@ void LCD_displayString(const char *Str)
 		LCD_displayCharacter(Str[i]);
 		i++;
 	}
-	/***************** Another Method ***********************
+	/********************* Another Method **********************
 	while((*Str) != '\0')
 	{
 		LCD_displayCharacter(*Str);
 		Str++;
 	}		
-	*********************************************************/
+	************************************************************/
 }
 
 /*
- * Description :
- * Move the cursor to a specified row and column index on the screen
+ * Description:
+ * Move the cursor to a specified row and column index on the screen.
  */
 void LCD_moveCursor(uint8 row,uint8 col)
 {
@@ -219,7 +219,7 @@ void LCD_moveCursor(uint8 row,uint8 col)
 }
 
 /*
- * Description :
+ * Description:
  * Display the required string in a specified row and column index on the screen.
  */
 void LCD_displayStringRowColumn(uint8 row,uint8 col,const char *Str)
@@ -231,12 +231,12 @@ void LCD_displayStringRowColumn(uint8 row,uint8 col,const char *Str)
 }
 
 /*
- * Description :
+ * Description:
  * Display the required decimal value on the screen.
  */
 void LCD_intgerToString(int data)
 {
-	/* String to hold the ASCII result */
+   /* String to hold the ASCII result */
    char buff[16];
    /* Use itoa C function to convert the data to its corresponding ASCII value, 10 for decimal */
    itoa(data,buff,10);
