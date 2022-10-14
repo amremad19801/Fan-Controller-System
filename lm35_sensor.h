@@ -25,7 +25,7 @@
 
 #define SENSOR_CHANNEL_ID      		     2
 #define SENSOR_MAXIMUM_VOLTAGE		     1.5
-#define SENSOR_MAXIMUM_TEMPERATURE    	 150
+#define SENSOR_MAXIMUM_TEMPERATURE     150
 
 /*******************************************************************************
  *                            Functions Prototypes                            *
