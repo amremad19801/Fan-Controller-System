@@ -59,13 +59,13 @@ typedef struct
  *******************************************************************************/
 
 /*
- * Description :
- * Initialize the ADC.
+ * Description:
+ * Initialize the ADC driver.
  */
 void ADC_init(const ADC_ConfigType *Config_Ptr);
 
 /*
- * Description :
+ * Description:
  * Read analog data from a certain ADC channel and convert it to digital using the ADC.
  */
 uint16 ADC_readChannel(uint8 channel_num);
