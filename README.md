@@ -49,7 +49,7 @@
      <br>gpio.c : Source file for the GPIO driver.</br>
      <br>dc-mototr.h : Header file for the DC-Motor driver.</br>
      <br>dc-mototr.c : Source file for the DC-Motor driver.</br>
-     <br>main.c : Source file for the fan controller system project.</br>
      <br>lm35_sensor.h : Header file for the LM35 Temperature Sensor driver.</br>
      <br>lm35_sensor.c : Source file for the LM35 Temperature Sensor driver.</br>
+     <br>main.c : This file contains the code of the project.</br>
     </p>
