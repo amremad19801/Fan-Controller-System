@@ -41,8 +41,8 @@
     <p>
      <br>adc.h : Header file for the ADC driver.</br>
      <br>adc.c : Source file for the ADC driver.</br>
-     <br>lcd.h : Header file for the LCD driver</br>
-     <br>lcd.c : Source file for the LCD driver</br>
+     <br>lcd.h : Header file for the LCD driver.</br>
+     <br>lcd.c : Source file for the LCD driver.</br>
      <br>pwm.h : Header file for the PWM driver.</br>
      <br>pwm.c : Source file for the PWM driver.</br>
      <br>gpio.h : Header file for the GPIO driver.</br>
