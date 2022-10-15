@@ -17,7 +17,7 @@
      <br>The project is designed and implemented based on the layered architecture model.</br>
     </p>
   <h2>Project Components</h2>
-    <h3>Micrcontroller</h3>
+    <h3>Microcontroller</h3>
       <p>
        <br>- ATmega32</br>
       </p>
@@ -39,17 +39,17 @@
       </p>
   <h2>Files</h2>
     <p>
-     <br>main.c : This file contains the code of the project.</br>
-     <br>adc.h : This file contains the code of the project.</br>
-     <br>adc.c : This file contains the code of the project.</br>
-     <br>lcd.h : This file contains the code of the project.</br>
-     <br>lcd.c : This file contains the code of the project.</br>
-     <br>pwm.h : This file contains the code of the project.</br>
-     <br>pwm.c : This file contains the code of the project.</br>
-     <br>gpio.h : This file contains the code of the project.</br>
-     <br>gpio.c : This file contains the code of the project.</br>
-     <br>dc-mototr.h : This file contains the code of the project.</br>
-     <br>dc-mototr.c : This file contains the code of the project.</br>
-     <br>lm35_sensor.h : This file contains the code of the project.</br>
-     <br>lm35_sensor.c : This file contains the code of the project.</br>
+     <br>adc.h : Header file for the ADC driver.</br>
+     <br>adc.c : Source file for the ADC driver.</br>
+     <br>lcd.h : Header file for the LCD driver</br>
+     <br>lcd.c : Source file for the LCD driver</br>
+     <br>pwm.h : Header file for the PWM driver.</br>
+     <br>pwm.c : Source file for the PWM driver.</br>
+     <br>gpio.h : Header file for the GPIO driver.</br>
+     <br>gpio.c : Source file for the GPIO driver.</br>
+     <br>dc-mototr.h : Header file for the DC-Motor driver.</br>
+     <br>dc-mototr.c : Source file for the DC-Motor driver.</br>
+     <br>main.c : Source file for the fan controller system project.</br>
+     <br>lm35_sensor.h : Header file for the LM35 Temperature Sensor driver.</br>
+     <br>lm35_sensor.c : Source file for the LM35 Temperature Sensor driver.</br>
     </p>
