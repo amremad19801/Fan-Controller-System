@@ -5,7 +5,7 @@
     </p>
   <h2>Project Specifications</h2>
     <p>
-     <br>The LM35 temperature sensor will give continuous analog output corresponding to the temperature sensed by it. This analog signal is given to the ADC, which            converts the analog values to digital values.
+     <br>The LM35 temperature sensor gives continuous analog output corresponding to the temperature sensed by it. This analog signal is given to the ADC, which                converts the analog values to digital values.
      </br>
      <br>The digital output of the ADC is equivalent to the sensed analog voltage.</br>
      <br>In order to get the temperature from the sensed analog voltage, we need to perform some calculations in the programming for the microcontroller.</br>
